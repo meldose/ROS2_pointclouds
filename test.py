@@ -1,4 +1,4 @@
-import rclpy
+import rclpy 
 from rclpy.node import Node
 from sensor_msgs.msg import PointCloud2
 import sensor_msgs_py.point_cloud2 as pc2
@@ -58,3 +58,5 @@ def main():
 
 if __name__ == '__main__':
     main()
+
+# ros2 run some_package lidar_publisher_node  # Replace with your actual point cloud publisher
