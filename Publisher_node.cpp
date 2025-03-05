@@ -104,3 +104,11 @@ class PointCloudSystem {
 
 #############################################
 
+
+#### Integration #############
+
+
+#########Publisher: Converts ECS PointCloudComponent → sensor_msgs::msg::PointCloud2#######
+########Subscriber: Converts sensor_msgs::msg::PointCloud2 → ECS PointCloudComponent#######
+
+
